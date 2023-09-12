@@ -1,0 +1,10 @@
+;end of the program
+;$ nasm -f elf64 -o helloworld.o helloworld.asm
+;$ ld -o helloworld helloworld.o ; this is a linker command to link the object file and create executable file.
+;$ ./helloworld ; this is to run the executable file.
+
+;nasm -f win64 helloworld.asm ; this is an alternative option to compile an asm file
+
+
+
+;chmod +x helloworld ; this is for give permission to execute the file
